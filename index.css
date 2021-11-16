@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2? family= Crimson+Text:ital@1 & family= Festive & display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+
+  background-image: url(/image/fond-sable-2.jpg);
+  background-size: contain;
+  font-family: "Crimson Text", serif;
+  font-family: "Festive", cursif;
+}
+
+header {
+  background-color: white;
+}
+
+.accueil {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url(/image/terrain-de-boules-2.jpg) no-repeat center;
+  background-size: contain;
+  height: 500px;
+}
+.card {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+.section-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.section-2 img {
+  width: 450px;
+}
+.section-2 section {
+  background-color: hsl(60, 100%, 94%, 50%);
+  width: 600px;
+  padding-top: 10px;
+}
+
+.carousel {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+footer {
+  background-color: hsl(60, 100%, 94%, 50%);
+  text-align: center;
+  margin-top: 80px;
+}
+.footer {
+  margin-bottom: 20px;
+}
+footer svg {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 680px) {
+  .head img {
+    width: 90px;
+    height: 90px;
+  }
+
+  section .accueil {
+    height: 150px;
+  }
+  article .card {
+    width: 90%;
+    font-size: 15px;
+  }
+  section .accueil h2 {
+    font-size: 16px;
+  }
+  .carousel {
+    width: 80%;
+  }
+  .section-2 img {
+    width: 300px;
+  }
+  .section-2 {
+    font-size: 15px;
+  }
+  .carte-2 {
+    font-size: 16px;
+  }
+}
