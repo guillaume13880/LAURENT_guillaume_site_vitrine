@@ -4,7 +4,7 @@ body {
   padding: 0;
   width: 100vw;
 
-  background-image: url(/image/fond-sable-2.jpg);
+  background-image: url(./image/fond-sable-2.jpg);
   background-size: contain;
   font-family: "Crimson Text", serif;
   font-family: "Festive", cursif;
@@ -20,7 +20,7 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
-  background: url(/image/terrain-de-boules-2.jpg) no-repeat center;
+  background: url(./image/terrain-de-boules-2.jpg) no-repeat center;
   background-size: contain;
   height: 500px;
 }
